@@ -1,7 +1,7 @@
 ---
+layout: posts
 permalink: /about/
 title: "About"
-layout: posts
 excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
