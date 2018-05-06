@@ -268,7 +268,7 @@ defaults:
       path: ""
       type: reading
     values:
-      layout: posts
+      layout: single
       read_time: false
       author_profile: false
       share: false
