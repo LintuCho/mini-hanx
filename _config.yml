@@ -247,6 +247,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      search: false
   # _pets
   - scope:
       path: ""
@@ -256,6 +257,7 @@ defaults:
       author_profile: false
       share: true
       comment: true
+      search: false
   # _portfolio
   - scope:
       path: ""
@@ -264,6 +266,7 @@ defaults:
       layout: posts
       author_profile: false
       share: true
+      search: false
   - scope:
       path: ""
       type: reading
