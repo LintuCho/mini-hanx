@@ -3,17 +3,32 @@ layout: archive
 ---
 
 
-{% for item in site.pets %}
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  <p><a href="mini-hanx/{{ item.url }}">{{ item.title }}</a></p>
-{% endfor %}
-
-
 <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
     <h2 class="archive__subtitle">pets</h2>
     <div class="entries-{{ page.entries_layout | default: 'list' }}">
       {% for post in site.pets %}
+        {% include archive-single.html type=page.entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+</section>
+
+<section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">portfolios</h2>
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% for post in site.portfolios %}
+        {% include archive-single.html type=page.entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+</section>
+
+
+
+<section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">recipes</h2>
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% for post in site.recipes %}
         {% include archive-single.html type=page.entries_layout %}
       {% endfor %}
     </div>
