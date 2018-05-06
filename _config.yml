@@ -193,7 +193,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: posts
       author_profile: true
       read_time: true
       comments: true
@@ -204,14 +204,14 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: posts
       author_profile: true
   # _docs
   - scope:
       path: ""
       type: docs
     values:
-      layout: single
+      layout: posts
       read_time: false
       author_profile: false
       share: false
@@ -223,7 +223,7 @@ defaults:
       path: ""
       type: recipes
     values:
-      layout: single
+      layout: posts
       author_profile: true
       share: true
       comments: true
@@ -232,7 +232,7 @@ defaults:
       path: ""
       type: pets
     values:
-      layout: single
+      layout: posts
       author_profile: true
       share: true
       comment: true
@@ -241,7 +241,7 @@ defaults:
       path: ""
       type: portfolio
     values:
-      layout: single
+      layout: posts
       author_profile: false
       share: true
 
