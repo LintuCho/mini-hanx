@@ -24,6 +24,8 @@ main:
   #   url: /quick-start-guide/
   - title: "About"
     url: /about/
+  - title: "ReadNote"
+    url: /readnote/
   - title: "Posts"
     url: /year-archive/
   - title: "Tags"
