@@ -1,11 +1,11 @@
 ---
 title: "Post: Gallery test"
-categories:
-  - Post Formats
-tags:
-  - gallery
-  - Post Formats
-  - tiled
+# categories:
+#   - Post Formats
+# tags:
+#   - gallery
+#   - Post Formats
+#   - tiled
 # gallery:
 #   - url: /assets/images/unsplash-gallery-image-1.jpg
 #     image_path: /assets/images/unsplash-gallery-image-1-th.jpg
