@@ -99,8 +99,8 @@ analytics:
 # Site Author
 author:
   name             : "han.x"
-  avatar           : /assets/images/bio-photo-2.jpg
-  bio              : "I am an amazing person."
+  avatar           : /assets/images/icc.jpg
+  bio              : "An amazing person. A postgraduate student in Computer Science."
   location         : "Hangzhou, Zhejiang, China"
   email            : seanzxhan@gmail.com
   uri              :
@@ -190,7 +190,7 @@ kramdown:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: posts
@@ -208,7 +208,7 @@ defaults:
       author_profile: true
   # _docs
   - scope:
-      path: ""
+      path: "_docs"
       type: docs
     values:
       layout: posts
@@ -220,7 +220,7 @@ defaults:
         nav: docs
   # _recipes
   - scope:
-      path: ""
+      path: "_recipes"
       type: recipes
     values:
       layout: posts
@@ -312,16 +312,4 @@ compress_html:
     envs: development
 
 
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+
