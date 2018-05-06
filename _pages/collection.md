@@ -1,6 +1,6 @@
 ---
 title: "Posts by Year"
-permalink: /collection/
-layout: collection
+permalink: /collectionlist/
+layout: collectionlist
 author_profile: true
 ---
