@@ -72,7 +72,7 @@ gallery3:
     alt: "placeholder image 4"
 ---
 
-These are gallery tests for image wrapped in `<figure>` elements.
+<!-- These are gallery tests for image wrapped in `<figure>` elements.
 
 To place a gallery add the necessary YAML Front Matter:
 
@@ -131,4 +131,4 @@ And place it like so:
 
 And for giggles one more gallery just to make sure this works. To fill page content container add `class="full"`.
 
-{% include gallery id="gallery3" class="full" caption="This is a third gallery example with two images and fills the entire content container." %}
+{% include gallery id="gallery3" class="full" caption="This is a third gallery example with two images and fills the entire content container." %} -->
