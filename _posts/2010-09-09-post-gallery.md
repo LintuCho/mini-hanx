@@ -1,5 +1,5 @@
 ---
-title: "Post: Gallery"
+title: "Post: Gallery test"
 categories:
   - Post Formats
 tags:
