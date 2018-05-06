@@ -31,6 +31,9 @@
 
     &.sticky {
       overflow-y: auto;
+      &::-webkit-scrollbar{
+        display:none;
+      }
       /* calculate height of nav list */
       height: calc(
         100vh - 90px - 2em
